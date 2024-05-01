@@ -1,9 +1,6 @@
 import app from '../app';
+import pingRoute from '../routes/ping';
 
-app.get('/ping', (_req, res) => {
-    console.log('someone pinged here');
-    res.send('pong');
-});
-
+app.use('/ping', pingRoute);
 
 export default app;
