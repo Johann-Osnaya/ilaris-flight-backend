@@ -1,7 +1,7 @@
 {
     "version": 2,
     "rewrites": [
-        { "source": "/ping", "destination": "./src/api/ping.ts" },
+        { "source": "/ping", "destination": "src/api/ping.ts" },
         { "source": "/api/diaries", "destination": "src/api/diaries.ts"}
     ]
     }
