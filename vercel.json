@@ -1,9 +1,15 @@
 {
-    "version": 2,
-    "rewrites": [
-        { "source": "/ping", "destination": "/api/ping.ts" },
-        { "source": "/api/diaries", "destination": "/api/diaries.ts"},
-        { "source": "/(.*)", "destination": "/index.ts" }
+    "devCommand": "npm run dev",
+    "builds": [
+      {
+        "src": "src/index.ts",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/src/index.ts"
+      }
     ]
-    }
-    
+  }
