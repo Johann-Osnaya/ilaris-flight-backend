@@ -1,6 +1,6 @@
 import app from '../app';
-import pingRoute from '../routes/ping';
+import pingRouter from '../routes/ping';
 
-app.use('/ping', pingRoute);
+app.use('/ping', pingRouter);
 
 export default app;
