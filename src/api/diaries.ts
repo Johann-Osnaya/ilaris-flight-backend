@@ -1,4 +1,4 @@
-import app from "../app";
+import app from '../app';
 import diaryRouter from '../routes/diaries';
 
 app.use('/api/diaries', diaryRouter);
