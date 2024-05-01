@@ -10,10 +10,6 @@
         {
             "src": "/ping",
             "dest": "./src/api/ping.ts"
-        },
-        {
-        "src": "/(.*)",
-        "dest": "src/server.ts"
         }
     ]
     }
