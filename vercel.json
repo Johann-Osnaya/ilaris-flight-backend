@@ -1,9 +1,9 @@
 {
     "version": 2,
     "rewrites": [
-        { "source": "/ping", "destination": "/api/ping.ts" },
-        { "source": "/api/diaries", "destination": "/api/diaries.ts"},
-        { "source": "/(.*)", "destination": "/index.ts" }
+        { "source": "/ping", "destination": "/src/api/ping.ts" },
+        { "source": "/api/diaries", "destination": "src//api/diaries.ts"},
+        { "source": "/(.*)", "destination": "/src/index.ts" }
     ]
     }
     
